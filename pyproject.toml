@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.scripts]
-c4-coins = "SYNDICATE_BOTNET.main:start"
+SYNDICATE_BOTNET = "SYNDICATE_BOTNET.main:start"
 
 [tool.setuptools]
 packages = ["SYNDICATE_BOTNET"]
