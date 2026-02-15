@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SYNDICATE-BOTNET" 
+version = "1.0.0"
+description = "Premium Auto Bot for MoneyBux"
+readme = "README.md"
+authors = [{ name = "lutfiix77" }]
+requires-python = ">=3.12"
+dependencies = [
+    "telethon",
+    "requests",
+    "beautifulsoup4"
+]
+
+[project.scripts]
+c4-coins = "SYNDICATE_BOTNET.main:start"
+
+[tool.setuptools]
+packages = ["SYNDICATE_BOTNET"]
+
+[tool.setuptools.package-data]
+SYNDICATE_BOTNET = ["*.so"]
