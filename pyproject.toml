@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "SYNDICATE-BOTSNET" # Nama buat 'pip install'
-version = "1.1.2"
+name = "SYNDICATE-BOTSNET" 
+version = "1.1.5"
 description = "Premium Auto Bot for MoneyBux"
 readme = "README.md"
 authors = [{ name = "lutfiix77" }]
@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.scripts]
-SYNDICATE-BOTSNET = "SYNDICATE_BOTNET.main:start" # Nama buat jalanin bot
+SYNDICATE-BOTSNET = "SYNDICATE_BOTNET.main:start"
 
 [tool.setuptools]
 packages = ["SYNDICATE_BOTNET"]
