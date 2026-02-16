@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "SYNDICATE-BOTSNET" # Nama buat 'pip install'
-version = "1.0.0"
+version = "1.1.2"
 description = "Premium Auto Bot for MoneyBux"
 readme = "README.md"
 authors = [{ name = "lutfiix77" }]
